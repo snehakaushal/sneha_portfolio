@@ -17,7 +17,28 @@ const projects = [
     github: 'https://github.com/snehakaushal?tab=repositories',
   },
   {
-    id: 2,
+    
+ id: 2,
+  title: 'Lie / Inconsistency Detector',
+  subtitle: 'AI-powered Verification Platform',
+  icon: Brain,
+  category: 'AI / ML',
+  tech: ['React', 'Vite', 'Python', 'Flask', 'PyPDF2'],
+  color: 'cyan',
+  description: 'AI-powered application verification platform for recruiters and admissions teams. Parses resumes, compares application responses with GitHub and LinkedIn data, detects inconsistencies, and generates recruiter risk analysis reports.',
+  features: [
+    'PDF Resume Parsing',
+    'GitHub API Integration',
+    'Risk Scoring',
+    'AI Verification',
+    'Fraud Detection'
+  ],
+  live: 'https://aitalentscreen.vercel.app/',
+  github: 'https://github.com/snehakaushal?tab=repositories',
+
+  },
+  {
+    id: 3,
     title: 'AEGIS v3',
     subtitle: 'Global Multi-Domain Threat Detection',
     icon: Radio,
@@ -26,18 +47,6 @@ const projects = [
     color: 'purple',
     description: 'Real-time global threat intelligence dashboard with live air and maritime tracking. Integrates OpenSky & AISHub APIs, generates AI-based threat reports, and provides live WebSocket updates for multi-domain situational awareness.',
     features: ['Real-time WebSocket', 'Global Air Tracking', 'Maritime Monitoring', 'AI Threat Reports', 'OpenSky API'],
-    live: 'https://resume-analyzer-3-0vya.onrender.com/',
-    github: 'https://github.com/snehakaushal?tab=repositories',
-  },
-  {
-    id: 3,
-    title: 'E-Commerce Platform',
-    icon: ShoppingBag,
-    category: 'Backend',
-    tech: ['Java', 'Spring Boot', 'Maven', 'REST APIs'],
-    color: 'green',
-    description: 'Scalable backend for a full-featured e-commerce platform. Implements secure authentication, product management, RESTful architecture with Spring Boot, modular design, and comprehensive API testing.',
-    features: ['Scalable APIs', 'Secure Auth', 'Product Management', 'RESTful Design', 'API Testing'],
     live: 'https://resume-analyzer-3-0vya.onrender.com/',
     github: 'https://github.com/snehakaushal?tab=repositories',
   },
